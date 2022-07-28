@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D1DB5D928926B40009F3849 /* CallListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1DB5D828926B40009F3849 /* CallListModel.swift */; };
+		5D1DB5DC28926F97009F3849 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1DB5DB28926F97009F3849 /* Connectivity.swift */; };
+		5D1DB5DF289273FD009F3849 /* BuyListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1DB5DE289273FD009F3849 /* BuyListModel.swift */; };
+		5D1DB60328927D3E009F3849 /* ItemToSell+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1DB60128927D3E009F3849 /* ItemToSell+CoreDataClass.swift */; };
+		5D1DB60428927D3E009F3849 /* ItemToSell+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1DB60228927D3E009F3849 /* ItemToSell+CoreDataProperties.swift */; };
+		5D1DB606289292BD009F3849 /* DatabaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1DB605289292BD009F3849 /* DatabaseHandler.swift */; };
+		5D421A312891E3A70076B78F /* BuyListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D421A2F2891E3A70076B78F /* BuyListCell.swift */; };
+		5D421A322891E3A70076B78F /* BuyListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D421A302891E3A70076B78F /* BuyListCell.xib */; };
 		5D42F6E92891D3AF000F83D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D42F6E82891D3AF000F83D0 /* AppDelegate.swift */; };
 		5D42F6EB2891D3AF000F83D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D42F6EA2891D3AF000F83D0 /* SceneDelegate.swift */; };
 		5D42F6ED2891D3AF000F83D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D42F6EC2891D3AF000F83D0 /* ViewController.swift */; };
@@ -14,9 +22,27 @@
 		5D42F6F32891D3AF000F83D0 /* Todo_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D42F6F12891D3AF000F83D0 /* Todo_App.xcdatamodeld */; };
 		5D42F6F52891D3B1000F83D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D42F6F42891D3B1000F83D0 /* Assets.xcassets */; };
 		5D42F6F82891D3B1000F83D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D42F6F62891D3B1000F83D0 /* LaunchScreen.storyboard */; };
+		5D42F7082891D50A000F83D0 /* CallListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D42F7002891D50A000F83D0 /* CallListVC.xib */; };
+		5D42F7092891D50A000F83D0 /* CallListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D42F7012891D50A000F83D0 /* CallListVC.swift */; };
+		5D42F70A2891D50A000F83D0 /* BuyListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D42F7032891D50A000F83D0 /* BuyListVC.swift */; };
+		5D42F70B2891D50A000F83D0 /* BuyListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D42F7042891D50A000F83D0 /* BuyListVC.xib */; };
+		5D42F70C2891D50A000F83D0 /* SellListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D42F7062891D50A000F83D0 /* SellListVC.swift */; };
+		5D42F70D2891D50A000F83D0 /* SellListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D42F7072891D50A000F83D0 /* SellListVC.xib */; };
+		5D42F7102891D8D2000F83D0 /* CallListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D42F70E2891D8D2000F83D0 /* CallListCell.swift */; };
+		5D42F7112891D8D2000F83D0 /* CallListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D42F70F2891D8D2000F83D0 /* CallListCell.xib */; };
+		BA239753A74DBE12FB980312 /* Pods_Todo_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 909B502698066A085891CCEA /* Pods_Todo_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58C9413CB7E5654A771A3B34 /* Pods-Todo App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todo App.debug.xcconfig"; path = "Target Support Files/Pods-Todo App/Pods-Todo App.debug.xcconfig"; sourceTree = "<group>"; };
+		5D1DB5D828926B40009F3849 /* CallListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallListModel.swift; sourceTree = "<group>"; };
+		5D1DB5DB28926F97009F3849 /* Connectivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		5D1DB5DE289273FD009F3849 /* BuyListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyListModel.swift; sourceTree = "<group>"; };
+		5D1DB60128927D3E009F3849 /* ItemToSell+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ItemToSell+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5D1DB60228927D3E009F3849 /* ItemToSell+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ItemToSell+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5D1DB605289292BD009F3849 /* DatabaseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHandler.swift; sourceTree = "<group>"; };
+		5D421A2F2891E3A70076B78F /* BuyListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyListCell.swift; sourceTree = "<group>"; };
+		5D421A302891E3A70076B78F /* BuyListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BuyListCell.xib; sourceTree = "<group>"; };
 		5D42F6E52891D3AF000F83D0 /* Todo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Todo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D42F6E82891D3AF000F83D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D42F6EA2891D3AF000F83D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +52,16 @@
 		5D42F6F42891D3B1000F83D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D42F6F72891D3B1000F83D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D42F6F92891D3B1000F83D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D42F7002891D50A000F83D0 /* CallListVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CallListVC.xib; sourceTree = "<group>"; };
+		5D42F7012891D50A000F83D0 /* CallListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallListVC.swift; sourceTree = "<group>"; };
+		5D42F7032891D50A000F83D0 /* BuyListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyListVC.swift; sourceTree = "<group>"; };
+		5D42F7042891D50A000F83D0 /* BuyListVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuyListVC.xib; sourceTree = "<group>"; };
+		5D42F7062891D50A000F83D0 /* SellListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SellListVC.swift; sourceTree = "<group>"; };
+		5D42F7072891D50A000F83D0 /* SellListVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SellListVC.xib; sourceTree = "<group>"; };
+		5D42F70E2891D8D2000F83D0 /* CallListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallListCell.swift; sourceTree = "<group>"; };
+		5D42F70F2891D8D2000F83D0 /* CallListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CallListCell.xib; sourceTree = "<group>"; };
+		909B502698066A085891CCEA /* Pods_Todo_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todo_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C92592111DBAB38788FB9E8B /* Pods-Todo App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todo App.release.xcconfig"; path = "Target Support Files/Pods-Todo App/Pods-Todo App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +69,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA239753A74DBE12FB980312 /* Pods_Todo_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06CE5C2AB9701D805739BB2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58C9413CB7E5654A771A3B34 /* Pods-Todo App.debug.xcconfig */,
+				C92592111DBAB38788FB9E8B /* Pods-Todo App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5D1DB5DA28926B46009F3849 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5D1DB5D828926B40009F3849 /* CallListModel.swift */,
+				5D1DB5DE289273FD009F3849 /* BuyListModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5D1DB5DD28927021009F3849 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5D1DB5DB28926F97009F3849 /* Connectivity.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5D1DB5F028927BAC009F3849 /* ItemToSell */ = {
+			isa = PBXGroup;
+			children = (
+				5D1DB60128927D3E009F3849 /* ItemToSell+CoreDataClass.swift */,
+				5D1DB60228927D3E009F3849 /* ItemToSell+CoreDataProperties.swift */,
+				5D1DB605289292BD009F3849 /* DatabaseHandler.swift */,
+			);
+			path = ItemToSell;
+			sourceTree = "<group>";
+		};
 		5D42F6DC2891D3AF000F83D0 = {
 			isa = PBXGroup;
 			children = (
+				5D1DB5DA28926B46009F3849 /* Models */,
+				5D1DB5DD28927021009F3849 /* Extensions */,
 				5D42F6E72891D3AF000F83D0 /* Todo App */,
 				5D42F6E62891D3AF000F83D0 /* Products */,
+				06CE5C2AB9701D805739BB2B /* Pods */,
+				FB2BC3F9FE267F83FEA422F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,13 +138,56 @@
 				5D42F6E82891D3AF000F83D0 /* AppDelegate.swift */,
 				5D42F6EA2891D3AF000F83D0 /* SceneDelegate.swift */,
 				5D42F6EC2891D3AF000F83D0 /* ViewController.swift */,
+				5D1DB5F028927BAC009F3849 /* ItemToSell */,
+				5D42F6FF2891D50A000F83D0 /* CallList */,
+				5D42F7022891D50A000F83D0 /* BuyList */,
+				5D42F7052891D50A000F83D0 /* SellList */,
 				5D42F6EE2891D3AF000F83D0 /* Main.storyboard */,
-				5D42F6F42891D3B1000F83D0 /* Assets.xcassets */,
 				5D42F6F62891D3B1000F83D0 /* LaunchScreen.storyboard */,
+				5D42F6F42891D3B1000F83D0 /* Assets.xcassets */,
 				5D42F6F92891D3B1000F83D0 /* Info.plist */,
 				5D42F6F12891D3AF000F83D0 /* Todo_App.xcdatamodeld */,
 			);
 			path = "Todo App";
+			sourceTree = "<group>";
+		};
+		5D42F6FF2891D50A000F83D0 /* CallList */ = {
+			isa = PBXGroup;
+			children = (
+				5D42F7012891D50A000F83D0 /* CallListVC.swift */,
+				5D42F7002891D50A000F83D0 /* CallListVC.xib */,
+				5D42F70E2891D8D2000F83D0 /* CallListCell.swift */,
+				5D42F70F2891D8D2000F83D0 /* CallListCell.xib */,
+			);
+			path = CallList;
+			sourceTree = "<group>";
+		};
+		5D42F7022891D50A000F83D0 /* BuyList */ = {
+			isa = PBXGroup;
+			children = (
+				5D42F7032891D50A000F83D0 /* BuyListVC.swift */,
+				5D42F7042891D50A000F83D0 /* BuyListVC.xib */,
+				5D421A2F2891E3A70076B78F /* BuyListCell.swift */,
+				5D421A302891E3A70076B78F /* BuyListCell.xib */,
+			);
+			path = BuyList;
+			sourceTree = "<group>";
+		};
+		5D42F7052891D50A000F83D0 /* SellList */ = {
+			isa = PBXGroup;
+			children = (
+				5D42F7062891D50A000F83D0 /* SellListVC.swift */,
+				5D42F7072891D50A000F83D0 /* SellListVC.xib */,
+			);
+			path = SellList;
+			sourceTree = "<group>";
+		};
+		FB2BC3F9FE267F83FEA422F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				909B502698066A085891CCEA /* Pods_Todo_App.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D42F6FC2891D3B1000F83D0 /* Build configuration list for PBXNativeTarget "Todo App" */;
 			buildPhases = (
+				6FDDA45FF0C9DB501EDBFF30 /* [CP] Check Pods Manifest.lock */,
 				5D42F6E12891D3AF000F83D0 /* Sources */,
 				5D42F6E22891D3AF000F83D0 /* Frameworks */,
 				5D42F6E32891D3AF000F83D0 /* Resources */,
+				BC4FA0C47C65457287EF4102 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,22 +250,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D42F70D2891D50A000F83D0 /* SellListVC.xib in Resources */,
+				5D42F70B2891D50A000F83D0 /* BuyListVC.xib in Resources */,
+				5D42F7082891D50A000F83D0 /* CallListVC.xib in Resources */,
 				5D42F6F82891D3B1000F83D0 /* LaunchScreen.storyboard in Resources */,
+				5D421A322891E3A70076B78F /* BuyListCell.xib in Resources */,
 				5D42F6F52891D3B1000F83D0 /* Assets.xcassets in Resources */,
 				5D42F6F02891D3AF000F83D0 /* Main.storyboard in Resources */,
+				5D42F7112891D8D2000F83D0 /* CallListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6FDDA45FF0C9DB501EDBFF30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Todo App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC4FA0C47C65457287EF4102 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Todo App/Pods-Todo App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Todo App/Pods-Todo App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Todo App/Pods-Todo App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5D42F6E12891D3AF000F83D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D1DB606289292BD009F3849 /* DatabaseHandler.swift in Sources */,
 				5D42F6ED2891D3AF000F83D0 /* ViewController.swift in Sources */,
+				5D42F70C2891D50A000F83D0 /* SellListVC.swift in Sources */,
 				5D42F6E92891D3AF000F83D0 /* AppDelegate.swift in Sources */,
+				5D421A312891E3A70076B78F /* BuyListCell.swift in Sources */,
 				5D42F6EB2891D3AF000F83D0 /* SceneDelegate.swift in Sources */,
+				5D1DB60328927D3E009F3849 /* ItemToSell+CoreDataClass.swift in Sources */,
+				5D1DB5D928926B40009F3849 /* CallListModel.swift in Sources */,
+				5D1DB60428927D3E009F3849 /* ItemToSell+CoreDataProperties.swift in Sources */,
+				5D42F70A2891D50A000F83D0 /* BuyListVC.swift in Sources */,
+				5D1DB5DC28926F97009F3849 /* Connectivity.swift in Sources */,
+				5D42F7102891D8D2000F83D0 /* CallListCell.swift in Sources */,
+				5D42F7092891D50A000F83D0 /* CallListVC.swift in Sources */,
+				5D1DB5DF289273FD009F3849 /* BuyListModel.swift in Sources */,
 				5D42F6F32891D3AF000F83D0 /* Todo_App.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,12 +466,13 @@
 		};
 		5D42F6FD2891D3B1000F83D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58C9413CB7E5654A771A3B34 /* Pods-Todo App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = K55SJ9L3KP;
+				DEVELOPMENT_TEAM = JA99V697QZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Todo App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -304,22 +485,23 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.TodoApp.Todo-app.Todo-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TodoApp.Todoapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5D42F6FE2891D3B1000F83D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C92592111DBAB38788FB9E8B /* Pods-Todo App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = K55SJ9L3KP;
+				DEVELOPMENT_TEAM = JA99V697QZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Todo App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -332,11 +514,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.TodoApp.Todo-app.Todo-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TodoApp.Todoapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

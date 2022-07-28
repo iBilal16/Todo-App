@@ -1,24 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Todo_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bcj-cy-jW7">
+                                <rect key="frame" x="83" y="273" width="209" height="35"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="0X1-7M-aAQ"/>
+                                </constraints>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Call List"/>
+                                <connections>
+                                    <action selector="callListBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mq9-Or-hum"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X8v-Y2-SR6">
+                                <rect key="frame" x="83" y="388" width="209" height="35"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="8oz-hs-bn3"/>
+                                </constraints>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Buy List"/>
+                                <connections>
+                                    <action selector="buyListBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FR7-dF-EaF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NH4-Tj-4H2">
+                                <rect key="frame" x="83" y="503" width="209" height="35"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Q5k-oB-0pd"/>
+                                </constraints>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Sell List"/>
+                                <connections>
+                                    <action selector="sellListBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2vg-ej-Ahf"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Bcj-cy-jW7" secondAttribute="trailing" constant="83" id="9s0-bm-aCa"/>
+                            <constraint firstItem="Bcj-cy-jW7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="83" id="Jhj-ie-uSt"/>
+                            <constraint firstItem="Bcj-cy-jW7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="273" id="Rac-is-0jP"/>
+                            <constraint firstItem="NH4-Tj-4H2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="83" id="TT8-9w-auw"/>
+                            <constraint firstItem="X8v-Y2-SR6" firstAttribute="trailing" secondItem="Bcj-cy-jW7" secondAttribute="trailing" id="UIj-8u-ztI"/>
+                            <constraint firstAttribute="trailing" secondItem="NH4-Tj-4H2" secondAttribute="trailing" constant="83" id="Uvt-oe-cAg"/>
+                            <constraint firstItem="X8v-Y2-SR6" firstAttribute="top" secondItem="Bcj-cy-jW7" secondAttribute="bottom" constant="80" id="ZGk-hV-ZFJ"/>
+                            <constraint firstItem="NH4-Tj-4H2" firstAttribute="top" secondItem="X8v-Y2-SR6" secondAttribute="bottom" constant="80" id="dls-SY-5sb"/>
+                            <constraint firstItem="X8v-Y2-SR6" firstAttribute="leading" secondItem="Bcj-cy-jW7" secondAttribute="leading" id="oGy-6f-nS9"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="buyListBtn" destination="X8v-Y2-SR6" id="who-dB-9Fn"/>
+                        <outlet property="callListBtn" destination="Bcj-cy-jW7" id="YyG-KR-7hC"/>
+                        <outlet property="sellListBtn" destination="NH4-Tj-4H2" id="ddh-w4-VSJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="20" y="83"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
