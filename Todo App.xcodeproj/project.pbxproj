@@ -31,6 +31,7 @@
 		5D42F7102891D8D2000F83D0 /* CallListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D42F70E2891D8D2000F83D0 /* CallListCell.swift */; };
 		5D42F7112891D8D2000F83D0 /* CallListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D42F70F2891D8D2000F83D0 /* CallListCell.xib */; };
 		5D9D774D2893126600F19F91 /* API_Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9D774C2893126600F19F91 /* API_Manager.swift */; };
+		5DF6BAD4289406F9004A6FBF /* RandomUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF6BAD3289406F9004A6FBF /* RandomUsers.swift */; };
 		BA239753A74DBE12FB980312 /* Pods_Todo_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 909B502698066A085891CCEA /* Pods_Todo_App.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		5D42F70E2891D8D2000F83D0 /* CallListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallListCell.swift; sourceTree = "<group>"; };
 		5D42F70F2891D8D2000F83D0 /* CallListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CallListCell.xib; sourceTree = "<group>"; };
 		5D9D774C2893126600F19F91 /* API_Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = API_Manager.swift; path = "Todo App/API_Manager.swift"; sourceTree = SOURCE_ROOT; };
+		5DF6BAD3289406F9004A6FBF /* RandomUsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RandomUsers.swift; path = "Todo App/RandomUsers.swift"; sourceTree = SOURCE_ROOT; };
 		909B502698066A085891CCEA /* Pods_Todo_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todo_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92592111DBAB38788FB9E8B /* Pods-Todo App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todo App.release.xcconfig"; path = "Target Support Files/Pods-Todo App/Pods-Todo App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +94,7 @@
 			children = (
 				5D1DB5D828926B40009F3849 /* CallListModel.swift */,
 				5D1DB5DE289273FD009F3849 /* BuyListModel.swift */,
+				5DF6BAD3289406F9004A6FBF /* RandomUsers.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -356,6 +359,7 @@
 				5D9D774D2893126600F19F91 /* API_Manager.swift in Sources */,
 				5D1DB606289292BD009F3849 /* DatabaseHandler.swift in Sources */,
 				5D42F6ED2891D3AF000F83D0 /* ViewController.swift in Sources */,
+				5DF6BAD4289406F9004A6FBF /* RandomUsers.swift in Sources */,
 				5D42F70C2891D50A000F83D0 /* SellListVC.swift in Sources */,
 				5D42F6E92891D3AF000F83D0 /* AppDelegate.swift in Sources */,
 				5D421A312891E3A70076B78F /* BuyListCell.swift in Sources */,
