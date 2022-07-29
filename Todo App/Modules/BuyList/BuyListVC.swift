@@ -14,17 +14,17 @@ class BuyListVC: UIViewController {
     
     //var buyListArray: BuyListModel?
     var responseArray:RandomUser?
-
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         getApiData()
-//        if Connectivity.isConnectedToInternet{
-//            self.getApiData()
-//        }else{
-//            print("error")
-//        }
+        //        if Connectivity.isConnectedToInternet{
+        //            self.getApiData()
+        //        }else{
+        //            print("error")
+        //        }
         
     }
     
@@ -62,7 +62,7 @@ extension BuyListVC: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return responseArray?.results?.count ?? 0
-
+        
         
     }
     
@@ -74,7 +74,7 @@ extension BuyListVC: UITableViewDelegate, UITableViewDataSource {
         cell.nameLbl.text = responseArray?.results?[indexPath.row].name?.first ?? ""
         cell.priceLabel.text = responseArray?.results?[indexPath.row].phone ?? ""
         cell.qtyLabel.text = "\(responseArray?.results?[indexPath.row].dob?.age ?? 0)"
-
+        
         return cell
     }
     

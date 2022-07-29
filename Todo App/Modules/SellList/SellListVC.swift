@@ -15,7 +15,7 @@ class SellListVC: UIViewController {
     var sname : UITextField!
     var sprice : UITextField!
     var sqty : UITextField!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -43,7 +43,7 @@ class SellListVC: UIViewController {
             self.table_View.reloadData()
             
         }
-       
+        
         let cancelAction =  UIAlertAction(title: "Cancel", style: .cancel) { (action) in
             print("Cancel the operation")
             
@@ -55,24 +55,24 @@ class SellListVC: UIViewController {
             self.sname = textfield
             self.sname.placeholder = "Type name"
             
-
+            
         }
         
         dialogueMsg.addTextField { (textfield) in
             self.sprice = textfield
             self.sprice.placeholder = "Type price"
-
+            
         }
         
         dialogueMsg.addTextField { (textfield) in
             self.sqty = textfield
             self.sqty.placeholder = "Type quantity"
-
+            
         }
-
+        
         self.present(dialogueMsg, animated: true, completion: nil)
     }
-   
+    
 }
 
 
@@ -93,7 +93,7 @@ extension SellListVC: UITableViewDelegate, UITableViewDataSource {
         cell.nameLbl.text = sellerData[indexPath.row].name ?? ""
         cell.priceLabel.text = "\(String(describing: sellerData[indexPath.row].price))"
         cell.qtyLabel.text = "\(String(describing: sellerData[indexPath.row].quantity))"
-
+        
         return cell
     }
     

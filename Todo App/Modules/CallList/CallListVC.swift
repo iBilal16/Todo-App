@@ -12,20 +12,20 @@ class CallListVC: UIViewController {
     
     @IBOutlet weak var table_View: UITableView!
     
-   // var callListArray: CallListData?
+    // var callListArray: CallListData?
     var responseArray:RandomUser?
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-
+        
         getApiData()
         
-//        if Connectivity.isConnectedToInternet{
-//            self.getApiData()
-//        }else{
-//            print("Slow Internet Connection")
-//        }
+        //        if Connectivity.isConnectedToInternet{
+        //            self.getApiData()
+        //        }else{
+        //            print("Slow Internet Connection")
+        //        }
     }
     
     
@@ -57,14 +57,14 @@ class CallListVC: UIViewController {
 }
 
 
-    //MARK: Table View
+//MARK: Table View
 
 extension CallListVC: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return responseArray?.results?.count ?? 0
-
-       
+        
+        
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -78,8 +78,6 @@ extension CallListVC: UITableViewDelegate, UITableViewDataSource {
         return cell
     }
     
-    
-    
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 87
     }
@@ -89,5 +87,5 @@ extension CallListVC: UITableViewDelegate, UITableViewDataSource {
 
 
 
-    
-    
+
+
