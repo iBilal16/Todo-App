@@ -12,7 +12,7 @@
 import Foundation
 
 // MARK: - CallListModel
-struct CallListModel: Codable {
+struct CallListData: Codable {
     var id: Int?
     var name: String?
     var number: String?

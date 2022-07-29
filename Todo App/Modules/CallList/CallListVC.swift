@@ -12,8 +12,7 @@ class CallListVC: UIViewController {
     
     @IBOutlet weak var table_View: UITableView!
     
-    var callListArray: CallListModel?
-    
+    var callListArray: CallListData?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +20,7 @@ class CallListVC: UIViewController {
         
         if Connectivity.isConnectedToInternet{
             self.getApiData()
+            self.table_View.reloadData()
         }else{
             print("Slow Internet Connection")
         }
@@ -36,7 +36,7 @@ class CallListVC: UIViewController {
     
     func getApiData(){
         
-        AF.request("https://my-json-server.typicode.com/imkhan334/demo-1/call", method: .get, parameters: nil, headers: nil).responseDecodable(of: CallListModel.self) { (response) in
+        AF.request(API_Manager.callList_Api, method: .get, parameters: nil, headers: API_Manager.header()).responseDecodable(of: CallListData.self) { (response) in
             switch response.result{
             case .success(let data):
                 print(response)
@@ -55,7 +55,7 @@ class CallListVC: UIViewController {
 }
 
 
-//MARK: Table View
+    //MARK: Table View
 
 extension CallListVC: UITableViewDelegate, UITableViewDataSource {
     
@@ -82,6 +82,6 @@ extension CallListVC: UITableViewDelegate, UITableViewDataSource {
     }
     
     
-    
-    
 }
+
+
